@@ -5,7 +5,7 @@ EXERCISE - LINUX
   mv "$f" "$f.new"; done
 
 2.Delete file which has special characters. “ -“, “—“, “*”, “$”.
-
+  rm ">>filename.sh"
 3. Write a shell script that take two input numbers from user at runtime and display arithmetic
 operation on that numbers, find out max, & min number from them, find weather that numbers
 negative or positive.
@@ -17,7 +17,7 @@ echo -n "Enter the first number: "
 read num1
 echo -n "Enter the second number: "
 read num2
-echo "first number + second number = $((num1 + num2))"
+ec	ho "first number + second number = $((num1 + num2))"
 echo "first number - second number = $((num1 - num2))"
 echo "first number * second number = $((num1 * num2))"
 echo "first number / second number = $((num1 / num2))"
