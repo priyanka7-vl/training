@@ -17,7 +17,7 @@ echo -n "Enter the first number: "
 read num1
 echo -n "Enter the second number: "
 read num2
-ec	ho "first number + second number = $((num1 + num2))"
+echo "first number + second number = $((num1 + num2))"
 echo "first number - second number = $((num1 - num2))"
 echo "first number * second number = $((num1 * num2))"
 echo "first number / second number = $((num1 / num2))"
